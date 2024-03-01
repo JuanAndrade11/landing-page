@@ -41,6 +41,31 @@
     width: 128px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+.cards {    
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.rune {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 8px;
+}
+
 #title {
     font-size: 24px;
     color: #F9FAF8;
@@ -58,6 +83,12 @@
     font-weight: 800;
     color: #F9FAF8;
     margin: 0px;
+}
+
+#infotext {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 nav {
