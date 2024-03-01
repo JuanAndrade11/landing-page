@@ -19,7 +19,7 @@
     background-color: #1F2937;
     justify-content: space-around;
     align-items: center;
-    padding: 80px;
+    padding: 32px 240px;
     gap: 32px;
 }
 
@@ -47,7 +47,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 80px;
+    padding: 80px 240px;
 }
 
 .cards {    
@@ -74,7 +74,7 @@
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 80px;
+    padding: 80px 240px;
     font-style: italic;
     font-weight: 300;
     gap: 4px;
@@ -89,7 +89,7 @@
 .cta {
     display: flex;
     background-color: #3882F6;
-    margin: 40px;
+    margin: 80px 240px;
     padding: 40px;
     border-radius: 8px;
     justify-content: space-around;
