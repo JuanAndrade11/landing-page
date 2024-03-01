@@ -13,10 +13,51 @@
     color: #E5E7EB;
 }
 
+.top {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    gap: 32px;
+}
+
+.left {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px;
+    width: 128px;
+}
+
 #title {
     font-size: 24px;
     color: #F9FAF8;
     flex-shrink: 0;
+}
+
+#logo {
+    flex: 1;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+#hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0px;
 }
 
 nav {
@@ -26,4 +67,8 @@ nav {
 
 body {
     font-family: "Roboto", sans-serif;
+}
+
+p {
+    margin: 0px;
 }
